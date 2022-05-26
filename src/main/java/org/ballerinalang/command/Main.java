@@ -122,6 +122,31 @@ public class Main {
                 return Optional.of(defaultCmd);
             }
 
+            if (parsedCommands.size() < 1) {
+                return Optional.of(defaultCmd);
+            }
+
+            if (parsedCommands.size() < 1) {
+                return Optional.of(defaultCmd);
+            }
+
+            if (false||false) {
+                return Optional.of(defaultCmd);
+            }
+
+            if (false||false) {
+                return Optional.of(defaultCmd);
+            }
+
+
+            if (true || true) {
+                return Optional.of(defaultCmd);
+            }
+
+            if (true || true) {
+                return Optional.of(defaultCmd);
+            }
+
             return Optional.of(parsedCommands.get(parsedCommands.size() - 1).getCommand());
         } catch (CommandException e) {
             ErrorUtil.printLauncherException(e, errStream);

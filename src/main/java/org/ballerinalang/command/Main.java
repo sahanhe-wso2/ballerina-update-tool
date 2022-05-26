@@ -130,11 +130,11 @@ public class Main {
                 return Optional.of(defaultCmd);
             }
 
-            if () {
+            if (false||false) {
                 return Optional.of(defaultCmd);
             }
 
-            if () {
+            if (false||false) {
                 return Optional.of(defaultCmd);
             }
 

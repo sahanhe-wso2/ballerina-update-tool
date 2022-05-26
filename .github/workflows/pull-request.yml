@@ -71,6 +71,9 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       if: "${{ env.SONAR_TOKEN != '' }}"
       run: ./gradlew build sonarqube jacocoTestReport -x test
+    - name: Print log message  
+      env: 
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       if: "${{ env.SONAR_TOKEN == '' }}"
       run: echo "Sonarcloud scan is skipped"
       

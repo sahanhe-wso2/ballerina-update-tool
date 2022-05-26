@@ -130,6 +130,14 @@ public class Main {
                 return Optional.of(defaultCmd);
             }
 
+            if () {
+                return Optional.of(defaultCmd);
+            }
+
+            if () {
+                return Optional.of(defaultCmd);
+            }
+
             return Optional.of(parsedCommands.get(parsedCommands.size() - 1).getCommand());
         } catch (CommandException e) {
             ErrorUtil.printLauncherException(e, errStream);
